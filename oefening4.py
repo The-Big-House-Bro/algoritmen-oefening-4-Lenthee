@@ -6,6 +6,7 @@ def TelDoelParen():
             if nums[getal] + nums[getal2] < doel :
                 tel += 1
     return tel
+    
 nummers = [1 ,2, 3, 4, 5]
 doel = 6
 print(TelDoelParen(nummers, doel))
